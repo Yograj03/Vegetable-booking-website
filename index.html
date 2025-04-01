@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshVeggieMart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- !-- <div class="top-bar"> -->
+            <!-- <div class="contact-info">
+                <span>📞 8010497107 </span>
+                <span></span>
+            </div>
+            <div class="promo">
+                <span>Free Shipping on Orders Over ₹200!</span>
+            </div>
+        </div> -->
+        <nav> 
+            <div class="logo">FreshVeggieMart</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about" id="#about">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="" id="view-cart-btn">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="im" alt="" class="hero-image">
+        <div class="hero-content">
+           
+            <h1>Fresh Vegetables Delivered to Your Doorstep</h1>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Vegetable Showcase -->
+    <section id="shop" class="vegetable-showcase">
+        <h2>Our Fresh Vegetables</h2>
+        <div class="vegetable-grid">
+            <!-- Existing 4 Vegetables -->
+            <div class="vegetable-card" data-name="Tomato" data-price="60">
+                <img src="img/tomato.jpg" alt="Tomato">
+                <div class="overlay">
+                    <h3>Tomato</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>60rs/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card" data-name="Cucumber" data-price="80">
+                <img src="img/cucumber.jpg" alt="Cucumber">
+                <div class="overlay">
+                    <h3>Cucumber</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>80rs/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card" data-name="Carrot" data-price="40">
+                <img src="img/carrot.jpg" alt="Car075">
+                <div class="overlay">
+                    <h3>Carrot</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>40rs/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card" data-name="Broccoli" data-price="50">
+                <img src="img/broccoli.jpg" alt="Broccoli">
+                <div class="overlay">
+                    <h3>Broccoli</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>50rs/kg</p>
+                </div>
+            </div>
+            <!-- 8 Additional Vegetables (Placeholders) -->
+            <div class="vegetable-card"  data-name="Potato" data-price="60">
+                <img src="img/41QKCkQ2A5L.jpg" alt="Vegetable 5">
+                <div class="overlay">
+                    <h3>Potato</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹60/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="Lady Finger" data-price="75">
+                <img src="img/laddy finger.jpg" alt="Vegetable 6">
+                <div class="overlay">
+                    <h3>Lady Finger</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹75/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="Green Bell" data-price="40">
+                <img src="img/Green_bell_pepper.jpg" alt="Vegetable 7">
+                <div class="overlay">
+                    <h3>Green Bell</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹40/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="Cailiflower" data-price="25">
+                <img src="img/91EdPVzD99L.jpg" alt="Vegetable 8">
+                <div class="overlay">
+                    <h3>Cailiflower</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹25/1piece</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="Garlic" data-price="190">
+                <img src="img/71vpJSiNYeL._AC_UF1000,1000_QL80_.jpg" alt="Vegetable 9">
+                <div class="overlay">
+                    <h3>Garlic</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹190/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="Zucchini" data-price="50">
+                <img src="img/Squash-Zucchini.jpg" alt="Vegetable 10">
+                <div class="overlay">
+                    <h3>Zucchini</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹50/kg</p>
+                </div>
+            </div>
+            <div class="vegetable-card"  data-name="" data-price="30">
+                <img src="img/images.jpeg" alt="Vegetable 11">
+                <div class="overlay">
+                    <h3>Sweet Potato</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹30/1bunch</p>
+                </div>
+            </div>
+            <div class="vegetable-card" data-name="Spinach" data-price="50">
+                <img src="img/spinachseeds.webp" alt="Vegetable 12">
+                <div class="overlay">
+                    <h3>Spinach</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="price-below">
+                    <p>₹50/1piece</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <div class="icon">🚚</div>
+            <h4>Fast Delivery</h4>
+            <p>Delivered within 24 hours</p>
+        </div>
+        <div class="feature">
+            <div class="icon">🌿</div>
+            <h4>100% Organic</h4>
+            <p>Fresh from the farm</p>
+        </div>
+        <div class="feature">
+            <div class="icon">💰</div>
+            <h4>Best Prices</h4>
+            <p>Affordable and fresh</p>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">×</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <h3>Total: ₹<span id="cart-total">0.00</span></h3>
+            </div>
+            <button id="checkout-btn" class="btn">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-login" class="close">×</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Footer Section -->
+    <footer id="about">
+        <!-- <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div> -->
+        <div class="social-icons" id="about">
+            <a href="https://www.facebook.com/raj.ramteke.75248"target="_blank" id="#" class="face">Facebook</a>
+            <a href="https://www.instagram.com/yograj_pimple/" class="face"target="_blank">Instagram</a>
+            <a href="https://x.com/home?lang=en" class="face"target="_blank">Twitter</a>
+        </div>
+        <p>© 2025 FreshVeggieMart. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
